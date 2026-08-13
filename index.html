@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VizionMaps | Agência Digital de Alta Performance</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- CANVAS DE PARTÍCULAS EM MOVIMENTO -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- NAVBAR FUTURISTA CENTRALIZADA -->
+  <header class="navbar">
+    <div class="container nav-container">
+      
+      <!-- LOGO CENTRALIZADA NO TOPO -->
+      <a href="#" class="logo-center">
+        <img src="logo2.jpeg" alt="VizionMaps" class="brand-logo-img">
+      </a>
+
+      <!-- MENU DE NAVEGAÇÃO CENTRALIZADO -->
+      <nav class="nav-links" id="navLinks">
+        <a href="#inicio"><i class="fas fa-home"></i> Início</a>
+        <a href="#modulos"><i class="fas fa-cubes"></i> Soluções</a>
+        <a href="#portfolio"><i class="fas fa-laptop-code"></i> Modelos Prontos</a>
+        <a href="#diferenciais"><i class="fas fa-bolt"></i> Vantagens</a>
+      </nav>
+
+      <!-- ÁREA SOCIAL & CONTATO NAVBAR -->
+      <div class="nav-social-actions">
+        <div class="social-icons-nav">
+          <a href="https://www.facebook.com/profile.php?id=61592875845469" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/visionmaps.br/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <a href="https://wa.me/5561981065713?text=Olá!%20Quero%20um%20site%20de%20alta%20conversão%20para%20meu%20negócio." target="_blank" class="btn btn-google-green">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="inicio" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        
+        <!-- LOGOMARCA CENTRALIZADA AQUI -->
+        <div class="hero-logo-wrapper">
+          <img src="logo2.jpeg" alt="VizionMaps" class="hero-main-logo">
+        </div>
+
+        <div class="badge-status">
+          <span class="pulse-green"></span> TECNOLOGIA WEB DE ÚLTIMA GERAÇÃO 2026
+        </div>
+        <h1 class="hero-title">
+          SEU NEGÓCIO NO TOPO COM SITES PARA <br>
+          <span id="typing-text" class="txt-gradient"></span><span class="cursor">|</span>
+        </h1>
+        <p class="hero-description">
+          Desenvolvemos ecossistemas digitais de alta conversão, presença estratégica no Google Maps e identidades visuais marcantes para destacar sua empresa da concorrência.
+        </p>
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn-google-blue"><i class="fas fa-eye"></i> Explorar Modelos</a>
+          <a href="https://wa.me/5561981065713?text=Quero%20fazer%20um%20orçamento!" target="_blank" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Solicitar Orçamento</a>
+        </div>
+      </div>
+
+      <div class="hero-card-preview">
+        <div class="glass-card">
+          <div class="card-header-bar">
+            <span class="circle r"></span><span class="circle y"></span><span class="circle g"></span>
+            <span class="preview-url"><i class="fas fa-lock"></i> vizionmaps.com.br</span>
+          </div>
+          <div class="card-body-content">
+            <div class="live-indicator">
+              <i class="fas fa-chart-line txt-green"></i>
+              <span>Vendas & Agendamentos em Tempo Real</span>
+            </div>
+            <div class="metric-box">
+              <h3>+450%</h3>
+              <p>Aumento em chamadas no WhatsApp</p>
+            </div>
+            <div class="tech-tags">
+              <span>#GoogleMaps</span>
+              <span>#AltaVelocidade</span>
+              <span>#SEO</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MÓDULOS DE SERVIÇOS -->
+  <section id="modulos" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>SOLUÇÕES <span class="txt-blue">DIGITAIS</span></h2>
+        <p>Tudo o que sua empresa precisa para dominar a internet em um só lugar</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card border-b">
+          <div class="s-icon bg-blue"><i class="fas fa-laptop-code"></i></div>
+          <h3>Criação de Websites</h3>
+          <p>Sites profissionais, Landing Pages de alta conversão e Lojas Virtuais otimizadas para celular.</p>
+        </div>
+
+        <div class="service-card border-r">
+          <div class="s-icon bg-red"><i class="fas fa-map-marked-alt"></i></div>
+          <h3>Google Meu Negócio</h3>
+          <p>Posicionamento do seu estabelecimento no topo do Google Maps para atrair clientes locais diariamente.</p>
+        </div>
+
+        <div class="service-card border-y">
+          <div class="s-icon bg-yellow"><i class="fas fa-paint-brush"></i></div>
+          <h3>Identidade Visual</h3>
+          <p>Criação de logomarcas profissionais, cartões de visita digitais e paleta de cores exclusivas.</p>
+        </div>
+
+        <div class="service-card border-g">
+          <div class="s-icon bg-green"><i class="fas fa-bullhorn"></i></div>
+          <h3>Artes & Mídias Sociais</h3>
+          <p>Design de banners, artes para Instagram/Facebook e materiais publicitários focados em vendas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFÓLIO DE MODELOS PRONTOS -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-title">
+        <h2>CATÁLOGO DE <span class="txt-red">MODELOS PRONTOS</span></h2>
+        <p>Escolha a estrutura ideal para seu segmento. Clique para testar o protótipo ao vivo!</p>
+      </div>
+
+      <!-- FILTROS DE CATEGORIA -->
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">Todos os Modelos</button>
+        <button class="filter-btn" data-filter="servicos">Serviços</button>
+        <button class="filter-btn" data-filter="saude">Saúde & Pets</button>
+        <button class="filter-btn" data-filter="comercio">Comércio & Vendas</button>
+        <button class="filter-btn" data-filter="imoveis">Imóveis & Obras</button>
+      </div>
+
+      <!-- GRID DE SITES -->
+      <div class="portfolio-grid">
+
+        <!-- 1. Instrumentos Musicais -->
+        <div class="model-item" data-category="comercio">
+          <div class="item-preview theme-music">
+            <i class="fas fa-guitar item-icon"></i>
+            <span class="preview-badge">LOJA VIRTUAL</span>
+          </div>
+          <div class="item-details">
+            <h3>Loja de Instrumentos Musicais</h3>
+            <p>Catálogo de guitarras, teclados, áudio profissional e carrinho para WhatsApp.</p>
+            <div class="item-buttons">
+              <button class="btn-view" onclick="openDemo('musica')"><i class="fas fa-eye"></i> Demo</button>
+              <a href="https://wa.me/5561981065713?text=Quero%20o%20site%20de%20Instrumentos%20Musicais" target="_blank" class="btn-buy-sm"><i class="fab fa-whatsapp"></i> Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Pet Shop -->
+        <div class="model-item" data-category="saude">
+          <div class="item-preview theme-pet">
+            <i class="fas fa-paw item-icon"></i>
+            <span class="preview-badge">PET & VET</span>
+          </div>
+          <div class="item-details">
+            <h3>Pet Shop & Banho e Tosa</h3>
+            <p>Agendamento de serviços, vendas de acessórios e apresentação da equipe.</p>
+            <div class="item-buttons">
+              <button class="btn-view" onclick="openDemo('petshop')"><i class="fas fa-eye"></i> Demo</button>
+              <a href="https://wa.me/5561981065713?text=Quero%20o%20site%20de%20Pet%20Shop" target="_blank" class="btn-buy-sm"><i class="fab fa-whatsapp"></i> Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Cabeleireiro / Salão -->
+        <div class="model-item" data-category="servicos">
+          <div class="item-preview theme-salon">
+            <i class="fas fa-spa item-icon"></i>
+            <span class="preview-badge">BELEZA</span>
+          </div>
+          <div class="item-details">
+            <h3>Salão de Beleza & Hair Stylist</h3>
+            <p>Galeria de cortes, catálogo de tratamentos e agendamento de horários.</p>
+            <div class="item-buttons">
+              <button class="btn-view" onclick="openDemo('hair')"><i class="fas fa-eye"></i> Demo</button>
+              <a href="https://wa.me/5561981065713?text=Quero%20o%20site%20de%20Salao%20de%20Beleza" target="_blank" class="btn-buy-sm"><i class="fab fa-whatsapp"></i> Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Barbearia -->
+        <div class="model-item" data-category="servicos">
+          <div class="item-preview theme-barber">
+            <i class="fas fa-cut item-icon"></i>
+            <span class="preview-badge">BARBEARIA</span>
+          </div>
+          <div class="item-details">
+            <h3>Barbearia Premium</h3>
+            <p>Design estilo Vintage/Moderno com tabela de preços e reserva de cadeira.</p>
+            <div class="item-buttons">
+              <button class="btn-view" onclick="openDemo('barbearia')"><i class="fas fa-eye"></i> Demo</button>
+              <a href="https://wa.me/5561981065713?text=Quero%20o%20site%20de%20Barbearia" target="_blank" class="btn-buy-sm"><i class="fab fa-whatsapp"></i> Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Advocacia -->
+        <div class="model-item" data-category="servicos">
+          <div class="item-preview theme-law">
+            <i class="fas fa-balance-scale item-icon"></i>
+            <span class="preview-badge">JURÍDICO</span>
+          </div>
+          <div class="item-details">
+            <h3>Escritório de Advocacia</h3>
+            <p>Layout elegante e sóbrio para advogados, consultoria jurídica e áreas de atuação.</p>
+            <div class="item-buttons">
+              <button class="btn-view" onclick="openDemo('advocacia')"><i class="fas fa-eye"></i> Demo</button>
+              <a href="https://wa.me/5561981065713?text=Quero%20o%20site%20de%20Advocacia" target="_blank" class="btn-buy-sm"><i class="fab fa-whatsapp"></i> Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Clínica Veterinária -->
+        <div class="model-item" data-category="saude">
+          <div class="item-preview theme-vet">
+            <i class="fas fa-user-md item-icon"></i>
+            <span class="preview-badge">CLÍNICA VET</span>
+          </div>
+          <div class="item-details">
+            <h3>Clínica Veterinária 24h</h3>
+            <p>Focado em emergências, exames, vacinação e cirurgias veterinárias.</p>
+            <div class="item-buttons">
+              <button class="btn-view" onclick="openDemo('vet')"><i class="fas fa-eye"></i> Demo</button>
+              <a href="https://wa.me/5561981065713?text=Quero%20o%20site%20de%20Clinica%20Veterinaria" target="_blank" class="btn-buy-sm"><i class="fab fa-whatsapp"></i> Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Oficina Mecânica -->
+        <div class="model-item" data-category="servicos">
+          <div class="item-preview theme-auto">
+            <i class="fas fa-wrench item-icon"></i>
+            <span class="preview-badge">AUTOMOTIVO</span>
+          </div>
+          <div class="item-details">
+            <h3>Oficina Mecânica & Auto Center</h3>
+            <p>Agendamento de revisões, troca de óleo, diagnóstico e socorro 24h.</p>
+            <div class="item-buttons">
+              <button class="btn-view" onclick="openDemo('mecanica')"><i class="fas fa-eye"></i> Demo</button>
+              <a href="https://wa.me/5561981065713?text=Quero%20o%20site%20de%20Oficina%20Mecanica" target="_blank" class="btn-buy-sm"><i class="fab fa-whatsapp"></i> Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Consertos Eletrônicos -->
+        <div class="model-item" data-category="servicos">
+          <div class="item-preview theme-eletronica">
+            <i class="fas fa-microchip item-icon"></i>
+            <span class="preview-badge">ASSISTÊNCIA</span>
+          </div>
+          <div class="item-details">
+            <h3>Consertos & Eletrônicos</h3>
+            <p>Orçamentos para notebooks, celulares, TVs e placas em geral.</p>
+            <div class="item-buttons">
+              <button class="btn-view" onclick="openDemo('eletronicos')"><i class="fas fa-eye"></i> Demo</button>
+              <a href="https://wa.me/5561981065713?text=Quero%20o%20site%20de%20Conserto%20de%20Eletronicos" target="_blank" class="btn-buy-sm"><i class="fab fa-whatsapp"></i> Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Restaurante -->
+        <div class="model-item" data-category="comercio">
+          <div class="item-preview theme-restaurant">
+            <i class="fas fa-utensils item-icon"></i>
+            <span class="preview-badge">GASTRONOMIA</span>
+          </div>
+          <div class="item-details">
+            <h3>Restaurante & Pizzaria</h3>
+            <p>Cardápio digital interativo, reservas de mesa e delivery via WhatsApp.</p>
+            <div class="item-buttons">
+              <button class="btn-view" onclick="openDemo('restaurante')"><i class="fas fa-eye"></i> Demo</button>
+              <a href="https://wa.me/5561981065713?text=Quero%20o%20site%20de%20Restaurante" target="_blank" class="btn-buy-sm"><i class="fab fa-whatsapp"></i> Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. Construção Civil -->
+        <div class="model-item" data-category="imoveis">
+          <div class="item-preview theme-build">
+            <i class="fas fa-hard-hat item-icon"></i>
+            <span class="preview-badge">CONSTRUÇÃO</span>
+          </div>
+          <div class="item-details">
+            <h3>Construtora & Reformas</h3>
+            <p>Portfólio de obras entregues, orçamento de engenharia e projetos arquitetônicos.</p>
+            <div class="item-buttons">
+              <button class="btn-view" onclick="openDemo('construcao')"><i class="fas fa-eye"></i> Demo</button>
+              <a href="https://wa.me/5561981065713?text=Quero%20o%20site%20de%20Construcao" target="_blank" class="btn-buy-sm"><i class="fab fa-whatsapp"></i> Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11. Imobiliária -->
+        <div class="model-item" data-category="imoveis">
+          <div class="item-preview theme-realestate">
+            <i class="fas fa-building item-icon"></i>
+            <span class="preview-badge">IMOBILIÁRIA</span>
+          </div>
+          <div class="item-details">
+            <h3>Imobiliária & Corretor</h3>
+            <p>Catálogo para aluguel e venda de casas, apartamentos e terrenos.</p>
+            <div class="item-buttons">
+              <button class="btn-view" onclick="openDemo('imobiliaria')"><i class="fas fa-eye"></i> Demo</button>
+              <a href="https://wa.me/5561981065713?text=Quero%20o%20site%20de%20Imobiliaria" target="_blank" class="btn-buy-sm"><i class="fab fa-whatsapp"></i> Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12. Supermercado -->
+        <div class="model-item" data-category="comercio">
+          <div class="item-preview theme-market">
+            <i class="fas fa-shopping-basket item-icon"></i>
+            <span class="preview-badge">SUPERMERCADO</span>
+          </div>
+          <div class="item-details">
+            <h3>Supermercado & Hortifruti</h3>
+            <p>Encarte interativo com ofertas da semana e pedidos de entrega via WhatsApp.</p>
+            <div class="item-buttons">
+              <button class="btn-view" onclick="openDemo('supermercado')"><i class="fas fa-eye"></i> Demo</button>
+              <a href="https://wa.me/5561981065713?text=Quero%20o%20site%20de%20Supermercado" target="_blank" class="btn-buy-sm"><i class="fab fa-whatsapp"></i> Comprar</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL POPUP PARA VISUALIZAR CADA SITE -->
+  <div id="demoModal" class="modal-backdrop">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeDemo()">&times;</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <div class="container footer-content">
+      <div class="f-info">
+        <a href="#">
+          <img src="logo2.jpeg" alt="VizionMaps" class="brand-logo-img footer-logo">
+        </a>
+        <p>Transformando empresas comuns em referências no mercado digital.</p>
+        <p class="footer-phone"><i class="fas fa-phone-alt"></i> +55 (61) 98106-5713</p>
+      </div>
+
+      <div class="f-social">
+        <h4>Siga a VizionMaps</h4>
+        <div class="social-links-footer">
+          <a href="https://www.facebook.com/profile.php?id=61592875845469" target="_blank" class="soc-btn fb"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="https://www.instagram.com/visionmaps.br/" target="_blank" class="soc-btn ig"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="https://wa.me/5561981065713" target="_blank" class="soc-btn wa"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="f-copy">
+        <p>&copy; 2026 VizionMaps - Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BOTÃO FLUTUANTE WHATSAPP -->
+  <a href="https://wa.me/5561981065713?text=Olá!%20Gostaria%20de%20tirar%20dúvidas%20sobre%20os%20sites." class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
